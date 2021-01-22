@@ -22,6 +22,27 @@ class HomePage extends StatelessWidget {
               SizedBox(
                 height: 50,
               ),
+              Image.asset('assets/images/primary.png', width: 140),
+              SizedBox(
+                height: 16,
+              ),
+              Text(
+                'Rizki Kurniawan',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              SizedBox(
+                height: 4,
+              ),
+              Text(
+                'Mobile Developer',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: greyColor,
+                ),
+              ),
             ],
           ),
         ),
